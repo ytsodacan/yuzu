@@ -55,12 +55,12 @@ If you want to contribute to the user interface translation project, please chec
 
 ## Building
 
-* __Windows__: [Windows Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Windows)
-* __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
+* __Windows__: none
+* __Linux__: none
 
 ## Download
 
-You can download the latest releases automatically via the installer on our [downloads](https://yuzu-emu.org/downloads/) page.
+check releases
 
 
 ## Support
