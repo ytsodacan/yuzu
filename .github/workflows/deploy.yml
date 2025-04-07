@@ -30,6 +30,9 @@ jobs:
         GITHUB_WIKI_URL: 'https://github.com/yuzu-mirror/yuzu.wiki.git'
         TENANT: 'yuzu'
       run: ./.ci/build.sh
+      - name: Cleanup old worktrees
+      run: git worktree prune
+
     - name: Deploy
       if: ${{ ! github.base_ref }}
       uses: JamesIves/github-pages-deploy-action@v4
